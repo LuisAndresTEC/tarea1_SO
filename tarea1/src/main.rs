@@ -1,4 +1,4 @@
-use std::{io, ops::RangeInclusive};
+/*use std::{io, ops::RangeInclusive};
 use std::fmt::Display;
 
 
@@ -48,4 +48,31 @@ fn main() {
 
  run_tracee()
  
+}*/
+use nix::unistd::{fork, ForkResult, Pid};
+use std::os::unix::process::CommandExt;
+use std::process::Command;
+
+fn main() {
+    match unsafe { fork() } {
+        Ok(ForkResult::Child) => {
+            run_tracee();
+        } 
+
+        Ok(ForkResult::Parent { child }) => {
+            run_tracer(child);
+        }
+
+        Err(err) => {
+            panic!("[main] fork() failed: {}", err);
+        }
+    }
+}
+
+fn run_tracer(_child: Pid) {
+    loop{}
+}
+
+fn run_tracee() {
+    Command::new("ls").exec();
 }
