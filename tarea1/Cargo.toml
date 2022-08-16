@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 fork = "0.1.19"
 nix = "0.24.2"
+linux-personality = "1.0.0"

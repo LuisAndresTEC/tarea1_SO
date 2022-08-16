@@ -26,20 +26,50 @@
 
 ## Actividades realizadas por el estudiante
 
-1. **Investigación sobre el uso del lenguaje Rust**: 
-   1. Fecha: 11/08/2022
-   2. Cantidad de horas: 2
-   3. 
+| Fecha      | Hora de inicio | Hora final | Horas invertidas | Actividad realizada                                          |
+| ---------- | -------------- | ---------- | ---------------- | ------------------------------------------------------------ |
+| 09/08/2022 | 16:00          | 17:00      | 1:00             | Descarga y configuración del ambiente desarrollo             |
+| 09/08/2022 | 17:00          | 21:00      | 4:00             | Investigación básica sobre el funcionamiento y estructura del lenguaje Rust y familiarización con el lenguaje |
+| 09/08/2022 | 21:00          | 22:00      | 1:00             | Creación del repositorio de trabajo y comits iniciales       |
+| 10/08/2022 | 19:00          | 21:30      | 2:30             | Desarrollo de la estructura de captura de entradas de texto y validaciones para la tarea |
+| 10/08/2022 | 21:30          | 22:00      | 0:30             | Inicio de la investigación sobre como aplicar llamadas al sistema mediante la herramienta |
+| 11/08/2022 | 19:00          | 22:00      | 3:00             | Continuación de la investigación sobre como aplicar llamadas al sistema mediante la herramienta |
+| 12/08/2022 | 16:00          | 18:00      | 2:00             | Continuación de la investigación sobre como aplicar llamadas al sistema mediante la herramienta y experimentación sobre el uso de bibliotecas |
+| 13/08/2022 | 9:00           | 11:00      | 2:00             | Actualización y redacción de los avances en la documentación |
+| 13/08/2022 | 12:30          | 13:30      | 1:00             | Intentado habilitar la biblioteca Rust en mi computadora     |
+| 13/08/2022 | 3:00           | 4:30       | 1:30             | Se agregaron las dependencias al sistema y experimentación   |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+|            |                |            |                  |                                                              |
+
+## Auto evaluación
+
+### Estado final: 
+
+### Limitaciones adicionales: 
+
+### Reporte de commits: 
+
+### Calificación:
+
+| Rubro                      | Calificación |
+| -------------------------- | ------------ |
+| Opción -v: 10 %            |              |
+| Opción -V: 20 %            |              |
+| Ejecución de Prog: 20 %    |              |
+| Análisis de Syscalls: 30 % |              |
+| Documentación: 20 %        |              |
+| **Porcentaje final**       |              |
+
+## Lecciones aprendidas: 
 
 
 
-
-
-
-
-
-
-
-
-
+## Bibliografía:
 
